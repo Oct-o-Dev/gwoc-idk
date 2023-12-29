@@ -1,3 +1,15 @@
-.design {
+.d_box {
+  /* height: 600px; */
   background-color: purple;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box1{
+  margin-top: 50px;
+  height: 250px;
+  width: 250px;
+  border-color: black;
+  border-radius: 10px;
+  background-color: aquamarine;
 }

@@ -1,3 +1,37 @@
 .about {
-  background-color: fuchsia;
+  height: 650px;
+  width: 100%;
+  background-color: #ffe9c7;
+  display: flex;
+}
+
+.about_pic{
+  height: 510px;
+  width: 470px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 100px;
+  /* margin: 25px;
+  padding: 25px; */
+  display: flex;
+}
+
+.a_pic{
+  height: 490px;
+  width: 450px;
+  background-image: url("C:\Users\ASUS\OneDrive\Desktop\GWOC\WhatsApp Image 2023-12-29 at 00.57.14.jpeg");
+  background-size: cover;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_info{
+  height: 500px;
+  width: 700px;
+  background-color: aqua;
+  border-radius: 10px;
+  margin-left: 120px;
+  margin-top: 50px;
 }
