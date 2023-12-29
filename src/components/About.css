@@ -5,7 +5,7 @@
   display: flex;
 }
 
-.about_pic{
+.about_pic {
   height: 510px;
   width: 470px;
   background-color: aliceblue;
@@ -17,17 +17,16 @@
   display: flex;
 }
 
-.a_pic{
+.a_pic {
   height: 490px;
   width: 450px;
-  background-image: url("C:\Users\ASUS\OneDrive\Desktop\GWOC\WhatsApp Image 2023-12-29 at 00.57.14.jpeg");
   background-size: cover;
   border-radius: 10px;
   align-items: center;
   justify-content: center;
 }
 
-.about_info{
+.about_info {
   height: 500px;
   width: 700px;
   background-color: aqua;
