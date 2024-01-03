@@ -1,47 +1,48 @@
 import "./Navbar.css";
-
 import { useState } from "react";
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from "../assets/Final_Logo-removebg-preview.png";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   return (
     <div className="header">
-      <Link to="/">
-        <h2>Portfolio</h2>
-      </Link>
-      {/* <div className={click ? "nav-menu active" : "nav-menu"}> */}
-      <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li>
-          <Link to="/">Home </Link>
-        </li>
-        <li>
-          <Link to="/about">About </Link>
-        </li>
-        <li>
-          <Link to="/designs">Design </Link>
-        </li>
-        <li>
-          <Link to="/activities">Activity </Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact </Link>
-        </li>
-      </ul>
+      <header>
+        <img className="logo" src={logo} alt="introImg" />
+        <nav className="nav_nav">
+          <ul className="nav_links">
+            <li>
+              <Link to="/">Home </Link>
+            </li>
+            <li>
+              <Link to="/about">About </Link>
+            </li>
+            <li>
+              <Link to="/designs">Design </Link>
+            </li>
+            <li>
+              <Link to="/activities">Activity </Link>
+            </li>
+          </ul>
+        </nav>
+        <ul className="nav_links1">
+          <li>
+            <Link to="/contact" className="buttn">
+              Contact Us{" "}
+            </Link>
+          </li>
+        </ul>
+      </header>
 
-      {/* </div> */}
       <div className="hamburger" onClick={handleClick}>
         {click ? (
           <FaTimes size={20} style={{ color: "#000" }} />
         ) : (
           <FaBars size={20} style={{ color: "#000" }} />
         )}
-      </div>
-      <div className="bt">
-        {/* <div className='content1'><Link to='/hire' className='btn'>Hire Me</Link></div> */}
       </div>
     </div>
   );
