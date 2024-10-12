@@ -4,7 +4,7 @@ Hello, everyone! 👋
 
 Thank you for your interest in contributing to our project! We appreciate your enthusiasm and support. However, we would like to inform you that this repository is no longer active or functioning as intended.
 
-To continue contributing and collaborating, please visit our new repository: [Personal Finance Management Tool](https://github.com/zeviod/open-source-mern) 🔗. This new location will have the latest updates, features, and opportunities for contributions!
+To continue contributing and collaborating, please visit our new repository: [Open Source MERN](https://github.com/zeviod/open-source-mern) 🔗. This new location will have the latest updates, features, and opportunities for contributions!
 
 ## What to Expect in the New Repository:
 
